@@ -1,0 +1,381 @@
+      <!-- Start Landing Page -->
+      <div class="landing-page">
+        <header>
+          <div class="container">
+            <a href="#" class="logo"><img style="height: 80px;width: 110px;object-fit: cover;" src="http://images.squarespace-cdn.com/content/v1/63c03d9d000a0271736b3e86/891fc50a-c12a-442c-8341-2e12daef5cc7/output-onlinepngtools.png?format=1500w"/></a>
+            <ul class="links">
+              <li><a href="./index.html" target="_blank" style="color:white">Home</a></li>
+              <li>About Us</li>
+              <li >Work</li>
+            
+            </ul>
+          </div>
+        </header>
+        <div class="main">
+          <h1 style="color: #ffffff;">Available Health Care Plan</h1>
+          <ul class="cards">
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="./firstplan.png"></div>
+                
+                <div class="card_content">
+                  <h2 class="card_title">Basic Healthcare plan</h2>
+                  <p class="card_text">Applicable to age group below 25. Price 20$ per month </p>
+                  <button class="btn card_btn">Enroll</button>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="./plan2.jpg"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Gold Healthcare Plan</h2>
+                  <p class="card_text">Applicable to age group below 25.Price 30$ per month </p>
+                  <button class="btn card_btn">Enroll</button>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="./plan3.jpg"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Premium Healthcare Plan</h2>
+                  <p class="card_text">Applicable to age group between 25-40.Price 40$ per month </p>
+                  <button class="btn card_btn">Enroll</button>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src=".\plan4.jpg"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Diamond Healthcare Plan</h2>
+                  <p class="card_text">Applicable to age group between 25-40.Price 50$ per month </p>
+                  <button class="btn card_btn">Enroll</button>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="./plan5.jpg"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Elite Healthcare Plan</h2>
+                  <p class="card_text">Applicable to age group above 40.Price 60$ per month </p>
+                  <button class="btn card_btn">Enroll</button>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="./plan6.jpg"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Premium Healthcare Elite Plan</h2>
+                  <p class="card_text">Applicable to age group above 40. Price 70$ per month </p>
+                  <button class="btn card_btn">Enroll</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+      <!-- End Landing Page -->
+      <style>
+        /* Start Global Rules */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+
+/* Start Landing Page */
+.landing-page header {
+  min-height: 80px;
+  display: flex;
+}
+@media (max-width: 767px) {
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+}
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .landing-page header .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.landing-page header .logo {
+  color: #ffffff;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+@media (max-width: 767px) {
+  .landing-page header .logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .landing-page header .links {
+    text-align: center;
+    gap: 10px;
+  }
+}
+.landing-page header .links li {
+  margin-left: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: .3s;
+}
+@media (max-width: 767px) {
+  .landing-page header .links li {
+    margin-left: auto;
+  }
+}
+
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  min-height: calc(100vh - 80px);
+}
+@media (max-width: 767px) {
+  .landing-page .content .container {
+    gap: 0;
+    min-height: calc(100vh - 101px);
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 767px) {
+  .landing-page .content .info {
+    text-align: center;
+    margin-bottom: 15px 
+  }
+}
+.landing-page .content .info h1 {
+  color: #ffffff;
+  font-size: 44px;
+}
+.landing-page .content .info p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #ffffff;
+}
+.landing-page .content .info button {
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #1137e5;
+}
+.landing-page .content .image img {
+  max-width: 100%;
+}
+
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: 250px;
+  object-fit: fill;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+/* End Landing Page */
+      </style>
+        <script>
+          // Figure out what page the user is currently visiting. This is just so we can display an example email page along
+          // side the main page for this example.
+          const page = new URLSearchParams(window.location.search).get('page');
+        
+          // Make the correct example page visible.
+          document.documentElement.classList.add(page === 'home' ? 'Page__Home' : 'Page__Email');
+        
+          // Don't display web chat on the example email page.
+          if (page !== 'email') {
+            // This is the standard web chat configuration object. You can modify these values with the embed code for your
+            // own assistant if you wish to try this example with your assistant. You can find the documentation for this at
+            // https://web-chat.global.assistant.watson.cloud.ibm.com/docs.html?to=api-configuration#configurationobject.
+            window.watsonAssistantChatOptions = {
+              integrationID: "fb4682c6-4bac-409d-b414-e6832fb91dac", // The ID of this integration.
+              region: "jp-tok", // The region your integration is hosted in.
+              serviceInstanceID: "5ce707fa-9ed0-4f69-8815-8cdac49717cc", // The ID of your service instance.
+              // This is the configuration that determines what web chat does when it sees a link id. In this case, if web chat
+              // sees a link ID of "b50", it will open web chat and send the message "Pay my bill" to the assistant. The IDs
+              // can be whatever you want but it's a good idea to avoid IDs that are obvious for what they do to avoid customers
+              // trying to change them.
+             
+              onLoad: instance => {
+                instance.render()
+              },
+            };
+        
+            setTimeout(function () {
+              const t = document.createElement('script');
+              t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+              document.head.appendChild(t);
+            });
+          }
+        </script>
+    
